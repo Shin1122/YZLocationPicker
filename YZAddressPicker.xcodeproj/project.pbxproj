@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54AE9E461E40D53300E8BF03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AE9E451E40D53300E8BF03 /* AppDelegate.swift */; };
+		54AE9E481E40D53300E8BF03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AE9E471E40D53300E8BF03 /* ViewController.swift */; };
+		54AE9E4B1E40D53300E8BF03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54AE9E491E40D53300E8BF03 /* Main.storyboard */; };
+		54AE9E4D1E40D53300E8BF03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54AE9E4C1E40D53300E8BF03 /* Assets.xcassets */; };
+		54AE9E501E40D53300E8BF03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54AE9E4E1E40D53300E8BF03 /* LaunchScreen.storyboard */; };
+		54AE9E5B1E40D53300E8BF03 /* YZAddressPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AE9E5A1E40D53300E8BF03 /* YZAddressPickerTests.swift */; };
+		54AE9E661E40D53300E8BF03 /* YZAddressPickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AE9E651E40D53300E8BF03 /* YZAddressPickerUITests.swift */; };
+		54AE9E741E40D8AD00E8BF03 /* YZCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AE9E731E40D8AD00E8BF03 /* YZCityViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54AE9E571E40D53300E8BF03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54AE9E3A1E40D53300E8BF03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54AE9E411E40D53300E8BF03;
+			remoteInfo = YZAddressPicker;
+		};
+		54AE9E621E40D53300E8BF03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54AE9E3A1E40D53300E8BF03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54AE9E411E40D53300E8BF03;
+			remoteInfo = YZAddressPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54AE9E421E40D53300E8BF03 /* YZAddressPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZAddressPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54AE9E451E40D53300E8BF03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54AE9E471E40D53300E8BF03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		54AE9E4A1E40D53300E8BF03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54AE9E4C1E40D53300E8BF03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54AE9E4F1E40D53300E8BF03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54AE9E511E40D53300E8BF03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54AE9E561E40D53300E8BF03 /* YZAddressPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YZAddressPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54AE9E5A1E40D53300E8BF03 /* YZAddressPickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZAddressPickerTests.swift; sourceTree = "<group>"; };
+		54AE9E5C1E40D53300E8BF03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54AE9E611E40D53300E8BF03 /* YZAddressPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YZAddressPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54AE9E651E40D53300E8BF03 /* YZAddressPickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZAddressPickerUITests.swift; sourceTree = "<group>"; };
+		54AE9E671E40D53300E8BF03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54AE9E731E40D8AD00E8BF03 /* YZCityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YZCityViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54AE9E3F1E40D53300E8BF03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54AE9E531E40D53300E8BF03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54AE9E5E1E40D53300E8BF03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54AE9E391E40D53300E8BF03 = {
+			isa = PBXGroup;
+			children = (
+				54AE9E441E40D53300E8BF03 /* YZAddressPicker */,
+				54AE9E591E40D53300E8BF03 /* YZAddressPickerTests */,
+				54AE9E641E40D53300E8BF03 /* YZAddressPickerUITests */,
+				54AE9E431E40D53300E8BF03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54AE9E431E40D53300E8BF03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54AE9E421E40D53300E8BF03 /* YZAddressPicker.app */,
+				54AE9E561E40D53300E8BF03 /* YZAddressPickerTests.xctest */,
+				54AE9E611E40D53300E8BF03 /* YZAddressPickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54AE9E441E40D53300E8BF03 /* YZAddressPicker */ = {
+			isa = PBXGroup;
+			children = (
+				54AE9E731E40D8AD00E8BF03 /* YZCityViewController.swift */,
+				54AE9E451E40D53300E8BF03 /* AppDelegate.swift */,
+				54AE9E471E40D53300E8BF03 /* ViewController.swift */,
+				54AE9E491E40D53300E8BF03 /* Main.storyboard */,
+				54AE9E4C1E40D53300E8BF03 /* Assets.xcassets */,
+				54AE9E4E1E40D53300E8BF03 /* LaunchScreen.storyboard */,
+				54AE9E511E40D53300E8BF03 /* Info.plist */,
+			);
+			path = YZAddressPicker;
+			sourceTree = "<group>";
+		};
+		54AE9E591E40D53300E8BF03 /* YZAddressPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				54AE9E5A1E40D53300E8BF03 /* YZAddressPickerTests.swift */,
+				54AE9E5C1E40D53300E8BF03 /* Info.plist */,
+			);
+			path = YZAddressPickerTests;
+			sourceTree = "<group>";
+		};
+		54AE9E641E40D53300E8BF03 /* YZAddressPickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54AE9E651E40D53300E8BF03 /* YZAddressPickerUITests.swift */,
+				54AE9E671E40D53300E8BF03 /* Info.plist */,
+			);
+			path = YZAddressPickerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54AE9E411E40D53300E8BF03 /* YZAddressPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54AE9E6A1E40D53300E8BF03 /* Build configuration list for PBXNativeTarget "YZAddressPicker" */;
+			buildPhases = (
+				54AE9E3E1E40D53300E8BF03 /* Sources */,
+				54AE9E3F1E40D53300E8BF03 /* Frameworks */,
+				54AE9E401E40D53300E8BF03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YZAddressPicker;
+			productName = YZAddressPicker;
+			productReference = 54AE9E421E40D53300E8BF03 /* YZAddressPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54AE9E551E40D53300E8BF03 /* YZAddressPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54AE9E6D1E40D53300E8BF03 /* Build configuration list for PBXNativeTarget "YZAddressPickerTests" */;
+			buildPhases = (
+				54AE9E521E40D53300E8BF03 /* Sources */,
+				54AE9E531E40D53300E8BF03 /* Frameworks */,
+				54AE9E541E40D53300E8BF03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54AE9E581E40D53300E8BF03 /* PBXTargetDependency */,
+			);
+			name = YZAddressPickerTests;
+			productName = YZAddressPickerTests;
+			productReference = 54AE9E561E40D53300E8BF03 /* YZAddressPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54AE9E601E40D53300E8BF03 /* YZAddressPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54AE9E701E40D53300E8BF03 /* Build configuration list for PBXNativeTarget "YZAddressPickerUITests" */;
+			buildPhases = (
+				54AE9E5D1E40D53300E8BF03 /* Sources */,
+				54AE9E5E1E40D53300E8BF03 /* Frameworks */,
+				54AE9E5F1E40D53300E8BF03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54AE9E631E40D53300E8BF03 /* PBXTargetDependency */,
+			);
+			name = YZAddressPickerUITests;
+			productName = YZAddressPickerUITests;
+			productReference = 54AE9E611E40D53300E8BF03 /* YZAddressPickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54AE9E3A1E40D53300E8BF03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = YZ.Shin;
+				TargetAttributes = {
+					54AE9E411E40D53300E8BF03 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5DVPT5R6X2;
+						ProvisioningStyle = Automatic;
+					};
+					54AE9E551E40D53300E8BF03 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5DVPT5R6X2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 54AE9E411E40D53300E8BF03;
+					};
+					54AE9E601E40D53300E8BF03 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5DVPT5R6X2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 54AE9E411E40D53300E8BF03;
+					};
+				};
+			};
+			buildConfigurationList = 54AE9E3D1E40D53300E8BF03 /* Build configuration list for PBXProject "YZAddressPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54AE9E391E40D53300E8BF03;
+			productRefGroup = 54AE9E431E40D53300E8BF03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54AE9E411E40D53300E8BF03 /* YZAddressPicker */,
+				54AE9E551E40D53300E8BF03 /* YZAddressPickerTests */,
+				54AE9E601E40D53300E8BF03 /* YZAddressPickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54AE9E401E40D53300E8BF03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54AE9E501E40D53300E8BF03 /* LaunchScreen.storyboard in Resources */,
+				54AE9E4D1E40D53300E8BF03 /* Assets.xcassets in Resources */,
+				54AE9E4B1E40D53300E8BF03 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54AE9E541E40D53300E8BF03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54AE9E5F1E40D53300E8BF03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54AE9E3E1E40D53300E8BF03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54AE9E741E40D8AD00E8BF03 /* YZCityViewController.swift in Sources */,
+				54AE9E481E40D53300E8BF03 /* ViewController.swift in Sources */,
+				54AE9E461E40D53300E8BF03 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54AE9E521E40D53300E8BF03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54AE9E5B1E40D53300E8BF03 /* YZAddressPickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54AE9E5D1E40D53300E8BF03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54AE9E661E40D53300E8BF03 /* YZAddressPickerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54AE9E581E40D53300E8BF03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54AE9E411E40D53300E8BF03 /* YZAddressPicker */;
+			targetProxy = 54AE9E571E40D53300E8BF03 /* PBXContainerItemProxy */;
+		};
+		54AE9E631E40D53300E8BF03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54AE9E411E40D53300E8BF03 /* YZAddressPicker */;
+			targetProxy = 54AE9E621E40D53300E8BF03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54AE9E491E40D53300E8BF03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54AE9E4A1E40D53300E8BF03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54AE9E4E1E40D53300E8BF03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54AE9E4F1E40D53300E8BF03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54AE9E681E40D53300E8BF03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54AE9E691E40D53300E8BF03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54AE9E6B1E40D53300E8BF03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5DVPT5R6X2;
+				INFOPLIST_FILE = YZAddressPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shin.YZAddressPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		54AE9E6C1E40D53300E8BF03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5DVPT5R6X2;
+				INFOPLIST_FILE = YZAddressPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shin.YZAddressPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		54AE9E6E1E40D53300E8BF03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5DVPT5R6X2;
+				INFOPLIST_FILE = YZAddressPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shin.YZAddressPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YZAddressPicker.app/YZAddressPicker";
+			};
+			name = Debug;
+		};
+		54AE9E6F1E40D53300E8BF03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5DVPT5R6X2;
+				INFOPLIST_FILE = YZAddressPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shin.YZAddressPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YZAddressPicker.app/YZAddressPicker";
+			};
+			name = Release;
+		};
+		54AE9E711E40D53300E8BF03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5DVPT5R6X2;
+				INFOPLIST_FILE = YZAddressPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shin.YZAddressPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = YZAddressPicker;
+			};
+			name = Debug;
+		};
+		54AE9E721E40D53300E8BF03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5DVPT5R6X2;
+				INFOPLIST_FILE = YZAddressPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shin.YZAddressPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = YZAddressPicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54AE9E3D1E40D53300E8BF03 /* Build configuration list for PBXProject "YZAddressPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54AE9E681E40D53300E8BF03 /* Debug */,
+				54AE9E691E40D53300E8BF03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54AE9E6A1E40D53300E8BF03 /* Build configuration list for PBXNativeTarget "YZAddressPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54AE9E6B1E40D53300E8BF03 /* Debug */,
+				54AE9E6C1E40D53300E8BF03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		54AE9E6D1E40D53300E8BF03 /* Build configuration list for PBXNativeTarget "YZAddressPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54AE9E6E1E40D53300E8BF03 /* Debug */,
+				54AE9E6F1E40D53300E8BF03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		54AE9E701E40D53300E8BF03 /* Build configuration list for PBXNativeTarget "YZAddressPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54AE9E711E40D53300E8BF03 /* Debug */,
+				54AE9E721E40D53300E8BF03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54AE9E3A1E40D53300E8BF03 /* Project object */;
+}
