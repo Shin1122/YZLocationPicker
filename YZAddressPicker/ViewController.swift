@@ -24,8 +24,6 @@ class ViewController: UIViewController {
         
         
         
-        
-        
     }
     
     //修改该按钮的title变化方法

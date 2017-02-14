@@ -8,10 +8,16 @@
 
 import UIKit
 
-class YZCityViewController: UIViewController {
-
+class YZCityViewController: UIViewController,UITableViewDataSource,UITableViewDelegate {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let table = UITableView(frame: self.view.frame, style:.plain)
+        
+        table.delegate = self;
+        table.dataSource = self;
+        
 
         //加工数据
         
@@ -29,6 +35,27 @@ class YZCityViewController: UIViewController {
     }
     
     
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+      
+        let identifier = "identtifier";
+        
+        var cell = tableView.dequeueReusableCell(withIdentifier: identifier);
+        if(cell == nil){
+            
+            cell = UITableViewCell(style:.default, reuseIdentifier: identifier);
+            
+        }
+        
+        return cell!
+        
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
+        return 10
+        
+    }
     
     
     
